@@ -248,12 +248,4 @@ Finalmente, se comprobaría en Azure Storage Explorer (o portal) que bajo `adls:
 
 > **Conclusión comparativa:** Para cargas por lotes de datos estructurados y no estructurados a gran escala, ADF es generalmente la opción más adecuada (gestión bajo demanda, integración nativa). Databricks/Synapse son mejores si además se requieren análisis complejos o ML en el proceso. Logic Apps se orienta a integraciones ligeras de aplicaciones, no a ETL de datos a gran escala.
 
-## Entregables  
-
-El resultado final incluye:  
-- **Documento técnico en Markdown** (formato listo para PDF), en español, con la explicación detallada.  
-- **Esquemas y diagramas** (Mermaid) incluidos en el texto.  
-- **Archivos de scripts** SQL de ejemplo (como en la sección anterior) y plantillas Bicep/Terraform (fragmentos como los mostrados) para la creación de recursos en Azure.  
-- **Capturas de pantalla simuladas (PNG)** que acreditan cada paso: interfaz de ADF (Linked Services, pipelines) y ejemplo de monitoreo/resultados. (En el documento se muestran usando `embed_image` con explicaciones).
-
 Todas las configuraciones y ejemplos se fundamentan en documentación oficial de Microsoft y mejores prácticas reconocidas.
